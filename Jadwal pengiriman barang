@@ -1,0 +1,33 @@
+ <html>
+<head>
+<title>Jadwal pengiriman barang</title>
+</head>
+<body>
+<p><h1>Berikut Jadwal pengiriman barang pada L300 Paket Fast </h1></p>
+<p><font name = "Verdana" size = "4" color = "blue">Jadwal pengiriman barang</font></p>
+<table border = "4" width = "70%">
+<tr bgcolor = "#cccccc">
+        <th>Tujuan</th><th>Jam pengiriman</th><
+</tr>
+<tr align = "center">
+        <td>Melaboh</td><td>14.WIB</td> 
+</tr>
+<tr align = "center">
+        <td>Lhoksmawe</td><td>12.WIB</td>
+</tr>
+<tr align = "center">
+        <td>Takengon</td><td>16.30.WIB</td>
+</tr>
+<tr align = "center">
+        <td>Bireun</td><td>11.WIB</td> 
+</tr>
+<tr align = "center">
+        <td>Sigli</td><td>19.30.WIB</td> 
+</tr> 
+<tr align = "center">
+        <td>Langsa</td><td>20.00.WIB</td> 
+</tr>
+</table>
+<p> <font name = "Verdana" size = "4" color = "blue"> Silahkan klik untuk kembali ke halaman sebelumnya >>> </font><a href="belajar.html" target="_blank">Halaman pertama.html</a></p>
+</body>
+</html>
