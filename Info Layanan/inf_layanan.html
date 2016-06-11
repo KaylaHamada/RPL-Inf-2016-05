@@ -40,7 +40,7 @@
     border: 10px solid silver;
     margin: 25px;
 	weight:50px;
-	height:600px;
+	height:800px;
 	text-align:justify;
 	size:450px;
 	
@@ -64,14 +64,15 @@
 			
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Beranda</a></li>
+                    <li><a href="index.html">Beranda</a></li>
                     <li><a href="Input1.html">Kirim Paket</a></li>
-                    <li><a href="services.html">Info Layanan</a></li>
-					<li><a href="portfolio.html">Status Transaksi</a></li>
+                    <li><a href="inf_layanan.html" style="color:black; background-color:white">Info Layanan</a></li>
+					          <li><a href="portfolio.html">Status Transaksi</a></li>
+                    <li><a href="map.html">Map Packet</a></li>
                     <li><a href="blog.html">Tentang Kami</a></li> 
-                    <li><a href="contact-us.html">Login</a></li>
+                    <li><a href="login_form.html">Login</a></li>
                 </ul>
-			</div>            
+		      	</div>            
         </div>
     </header>
 <div class="container">
@@ -82,7 +83,12 @@
 	<form action="hasil.php" method="post">
   <form role="form">
 	<center>
- <h3>Informasi Layanan Pengiriman</h3>
+    <h1 class="page-header">Info Layanan</h1>
+	<ol class="breadcrumb">
+                    <li><a href="index2.html">Beranda</a>
+                    </li>
+                    <li class="active">Info Layanan</li>
+                </ol>
 </center>
 
 <table style="width:40%">
@@ -144,6 +150,13 @@
     <td>CV.Burok</td>
   </tr>
 </table>
+
+<br>
+
+<h3>Map Packet</h3>
+<p>Map Packet berfungsi untuk memantau barang kiriman</p>
+<p>dengan memasukkan kode barang yang tertera pada identitas barang.</p> 
+
   
 </select>
     </div>
@@ -167,7 +180,7 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Faq</a></li>
                         <li><a href="#">Contact Us</a></li>
