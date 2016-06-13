@@ -1,17 +1,45 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Status Transaksi</title>
-    <meta name="viewport" content="width=device-width, initial-scale=100">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <title>Beranda | Status Transaksi</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css2/css.css" />
+    <link rel="stylesheet" type="text/css" href="css.css" />
+	<style>
+	form {
+   
+    background-color: white;
+	top: 24px;
+    width: 500px;
+    padding: 20px;
+    border: 10px solid silver;
+    margin: 5px;
+	text-align:justify;
+	top: 24px;
+    width: 800px;
+    padding: 20px;
+    border: 10px solid silver;
+    margin: 25px;
+	weight:50px;
+	height:750px;
+	text-align:justify;
+	size:450px;
+	
 
-</head>
-
+}
+</style>
+</head><!--/head-->
 <body>
-    <div class='container'>
+    
+<div class="container">
+
+
+<div class="col-md-14">
+  <center>
+  <div class="col-md-14">
+	<form action="hasil.php" method="post">
+  <form role="form">
+	
         <br>
         <nav class='half-width-column half-width-column--with-right-border' data-beacon-class='vert-nav__link--current' data-beacon-target='vert-nav__link--transaction' role='complementary'>
 
@@ -59,19 +87,46 @@
                                     </strong>
                                 </p>
                             </div>
-                            <p>Pembayaran dapat dilakukan ke salah satu rekening a/n "Beubagah Packet Fast" berikut:</p>
+                            <p>Data Pengiriman Paket:</p>
                             <br>
-                            <div class='list-logo--inline'>
-                                <dl class='dl-logo-list'>
-                                    <dt><img alt="Bank bca" title="Bank bca" class="list-logo--payment list-logo--bca" src="C:\xampp\htdocs\RPL\gambar\bca.png" /></dt>
-                                    <dd>
-                                        <div>Bank BCA</div>
-                                        <div>
-                                            <strong> 031 025 2546</strong>
-                                        </div>
-                                    </dd>
-                                </dl>
-                                <dl class='dl-logo-list'>
+							<justify>
+                            <label for="pwd">Nama Pengirim:</label>
+	<span>Muhammad Irhas</span>
+	</div>
+    <div class="form-group">
+    <label for="pwd">No.Hp Pengirim:</label>
+    <span>085206116800</span>
+	</div>
+    
+	
+	
+	<div class="form-group">
+    <label for="pwd">Nama Penerima:</label>
+    <span>Kayla Hamada</span>
+	</div>
+	
+	<div class="form-group">
+    <label for="pwd">No.Hp Penerima:</label>
+    <span>082314567890</span><br>
+	
+	<div class="form-group">
+    <label for="pwd">Jenis Barang:</label>
+    <span>IJAZAH</span><br>
+	<div class="form-group">
+    <label for="pwd">Tujuan:</label>
+    <span>Kota Langsa</span>
+	</div>
+	
+	<div class="form-group">
+    <label for="pwd">CV:</label>
+    <span>CV.BAHTERA</span>
+	</div>
+	
+	<div class="form-group">
+    <label for="pwd">Kode Barang:</label>
+    <span>013</span>
+	<br><br><br>
+	<dl class='dl-logo-list'>
                                     <dt><img alt="Bank mandiri" title="Bank mandiri" class="list-logo--payment list-logo--mandiri" src="C:\xampp\htdocs\RPL\gambar\mandiri.png" /></dt>
                                     <dd>
                                         <div>Bank Mandiri</div>
@@ -79,37 +134,20 @@
                                             <strong> 0460 000 464 464</strong>
                                         </div>
                                     </dd>
-                                </dl>
-                                <dl class='dl-logo-list'>
-                                    <dt><img alt="Bank bni" title="Bank bni" class="list-logo--payment list-logo--bni" src="C:\xampp\htdocs\RPL\gambar\bni.png" /></dt>
-                                    <dd>
-                                        <div>Bank BNI</div>
-                                        <div>
-                                            <strong> 046 446 4646</strong>
-                                        </div>
-                                    </dd>
-                                </dl>
-                                <dl class='dl-logo-list'>
-                                    <dt><img alt="Bank bri" title="Bank bri" class="list-logo--payment list-logo--bri" src="C:\xampp\htdocs\RPL\gambar\bri.png" /></dt>
-                                    <dd>
-                                        <div>Bank BRI</div>
-                                        <div>
-                                            <strong> 046 464 000 464 146</strong>
-                                        </div>
-                                    </dd>
-                                </dl>
-                            </div>
-
+                                </dl><br><br><br>
+</justify>
                         </div>
                         <br>
                         <p class="text-center">
                             Setelah melakukan pembayaran, sistem kami akan memverifikasi pembayaran secara otomatis. Jika Anda menghadapi kendala mengenai verifikasi pembayaran, silahkan <a target="_blank" href="#">Hubungi Admin</a> melalui nomor Contact yang tersedia
                         </p>
+						<center>
+						 <button class="btn btn-info"><a href="index2.html">Beranda</button></a></center>
                     </div>
                 </div>
-            </section>
-        </div>
-    </div>
+	</form>
+	</center>
+	<br>
+	
 </body>
-
 </html>
